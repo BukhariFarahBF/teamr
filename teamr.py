@@ -16,14 +16,12 @@ roomArray[100] = "You are standing on a very damp rug. There is a weird bump on 
 roomArray[200] = "To the north and east there is a wall. To the south you see a something in a frame."
 roomArray[101] = "To the north of you there is a moist rug. To the east of you there is something that looks like a paper in a picture frame."
 roomArray[201] = "There is a wall to the east and south of you. In the corner you see a high school diploma in the picture frame."
-
+roomArray[2]= "You leave the basement as you are now climbing some stairs. The chair is south of you and you see some paintings on the wall. "
+roomArray[3] = "You are about to finsh climbing the stairs. To the east you see a pile of old books. To the north there are stairs. There are walls west and south of you. "
 itemArray[0] = "Nail"
 itemArray[100] = "Watch"
 itemArray[201] = "High School Diploma"
 
-if location == 402:
-    print("You have cheetos, good job")
-    inventory.append("Cheetos")
 if location == 0:
     print("You have a Nail in your inventory.")
     inventory.append("Nail")
